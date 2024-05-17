@@ -1,0 +1,23 @@
+
+<h2>MENU USUARIOS</h2>
+
+<form (ngSubmit)="guardar(formulario)" #formulario ='ngForm'>
+    <label>Ingresar ID</label>
+    <input type="text" name="id" [(ngModel)]="id"  class="form-control">
+
+
+    <label>Ingrese el Password</label>
+    <input type="number" name="password" [(ngModel)]="password" class="form-control">
+   
+    <label>Seleccione tipo de Usuario</label><br>
+    <select name="type" [(ngModel)]= "type" class="form-control dark-select"><br>
+        <option value="user">User</option>
+        <option value="admin">Admin</option>
+    </select>
+    <br>
+<br><br>
+    <button type="submit">Guardar</button>
+
+    <button class="btn btn-success"[routerLink]="['/usuario']">REGRESAR</button>
+  
+</form>

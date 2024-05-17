@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "email": "manuel@yop.com",
+      "password": "$2a$10$v10NYLLKOTb/7X89dYtDE.IVrLZQddB3.JV6x.Nh9OlxYaXn8VrHC",
+      "type": "admin",
+      "id": 2
+    },
+    {
+      "email": "pedro@yop.com",
+      "password": "$2a$10$YZR.Pk1cLXe9Wv7xcvaDv.ZcKbf3b7x1Kb3zaMjaUxHRjcuvJarsi",
+      "type": "user",
+      "id": 3
+    }
+  ],
+  "revision": [
+    {
+      "id": 1,
+      "placa": "POD-3222",
+      "descripcion": "Daño hembrague"
+    },
+    {
+      "id": 2,
+      "placa": "PIO-3112",
+      "descripcion": "Daño hembrague"
+    },
+    {
+      "id": 3,
+      "placa": "PLA-3202",
+      "descripcion": "Daño hembrague"
+    },
+    {
+      "id": 4,
+      "placa": "PYX-0666",
+      "descripcion": "Daño hembrague"
+    },
+    {
+      "id": 5,
+      "placa": "PXX-1111",
+      "descripcion": "Daño hembrague"
+    }
+  ]
+}

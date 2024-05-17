@@ -1,0 +1,37 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Password</th>
+        <th scope="col">Tipo de Usuario</th>
+        <th scope="col">Email</th>
+ </tr>
+    </thead>
+    <tbody>
+        @for (item of usuario; track item) {
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.password}}</td>
+       <td>{{item.type}}</td>  
+       <td>{{item.email}}</td>  
+      
+        <td>
+          <button class="btn btn-success"[routerLink]="['/formulario']">EDITAR</button><br>
+         
+          <button class="btn btn-danger" (click)="eliminar(item.id)" >ELIMINAR</button>
+     
+        </td> 
+      </tr>
+    }
+
+    </tbody>
+  </table>
+
+
+  <div >
+ <button (click)="cerrar()">CERRAR</button>
+
+</div>
+ 
+ 
+

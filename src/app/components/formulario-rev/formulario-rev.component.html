@@ -1,0 +1,18 @@
+
+<h2>MENU EDITAR</h2>
+
+<form (ngSubmit)="guardar(formulario)" #formulario ='ngForm'>
+    <label>Ingresar ID</label>
+    <input type="text" name="id" [(ngModel)]="id"  class="form-control">
+
+    <label>Ingrese La Placa</label>
+    <input type="text" name="nombre" [(ngModel)]="placa" class="form-control">
+
+   <label>Ingrese la descripcion</label><br>
+    <input type="number" name="descripcion" [(ngModel)]="descricpion" class="form-control">
+ 
+    <br>
+
+    <button type="submit">Guardar</button>
+  
+</form>
